@@ -1,0 +1,75 @@
+.hero {
+  margin-top: 0;
+  height: 100vh;
+}
+
+.hero__main {
+  height: 100%;
+  display: flex;
+}
+
+.hero__text {
+  flex-basis: 40%;
+  margin-top: 14.25rem;
+  z-index: 2;
+}
+
+.hero__text h1 {
+  font-size: 4.25rem;
+  font-weight: 900;
+  color: #250909;
+}
+.hero__text p {
+  margin-top: 0.25rem;
+  color: #250909;
+}
+
+.hero__text .hero__text-try {
+  border: 3px solid #f8de3c;
+  margin-top: 1rem;
+  padding: 1rem;
+  color: #250909;
+  font-weight: 700;
+  background-color: #f8de3c;
+  margin-right: 1rem;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.hero__text .hero__text-try:hover {
+  border-color: #250909;
+}
+.hero__text .hero__text-more {
+  border: 3px solid #250909;
+  margin-top: 1rem;
+  padding: 1rem;
+  color: #250909;
+  font-weight: 700;
+  background-color: transparent;
+  margin-right: 1rem;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.hero__text .hero__text-more:hover {
+  color: #f8de3c;
+  border: 3px solid #f8de3c;
+}
+
+.hero__img {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+.hero__img img {
+  width: 65rem;
+}
+.blob {
+  position: absolute;
+  background-color: #88cef8;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  width: 65rem;
+  height: 65rem;
+  border-radius: 100% 25% 0% 100% / 100% 0% 100% 0%;
+  /* border-radius: 100% 0% 0% 100% / 0% 0% 0% 61%; */
+}
