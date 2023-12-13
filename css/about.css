@@ -1,2 +1,6 @@
 .about {
+  /*margin-top: 11.35rem;*/
+  margin-top: 0;
+  background-color: #88cef8;
+  height: 100vh;
 }
